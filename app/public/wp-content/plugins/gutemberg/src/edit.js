@@ -55,7 +55,7 @@ export default function Edit(props) {
 		type: "radio",
 		id: "primary",
 		name: "color",
-		value: "alert alert-primary",
+		value: "alert alert-primary alert-dismissible fade show",
 		onChange: updateColor
 	  }), /*#__PURE__*/
 	  React.createElement("label", {
@@ -65,7 +65,7 @@ export default function Edit(props) {
 		type: "radio",
 		id: "secondary",
 		name: "color",
-		value: "alert alert-secondary",
+		value: "alert alert-secondary alert-dismissible fade show",
 		onChange: updateColor
 	  }), /*#__PURE__*/
 	  React.createElement("label", {
@@ -75,7 +75,7 @@ export default function Edit(props) {
 		type: "radio",
 		id: "success",
 		name: "color",
-		value: "alert alert-success",
+		value: "alert alert-success alert-dismissible fade show",
 		onChange: updateColor
 	  }), /*#__PURE__*/
 	  React.createElement("label", {
@@ -85,7 +85,7 @@ export default function Edit(props) {
 		type: "radio",
 		id: "danger",
 		name: "color",
-		value: "alert alert-danger",
+		value: "alert alert-danger alert-dismissible fade show",
 		onChange: updateColor
 	  }), /*#__PURE__*/
 	  React.createElement("label", {
@@ -95,7 +95,7 @@ export default function Edit(props) {
 		type: "radio",
 		id: "warning",
 		name: "color",
-		value: "alert alert-warning",
+		value: "alert alert-warning alert-dismissible fade show",
 		onChange: updateColor
 	  }), /*#__PURE__*/
 	  React.createElement("label", {
@@ -105,7 +105,7 @@ export default function Edit(props) {
 		type: "radio",
 		id: "info",
 		name: "color",
-		value: "alert alert-info",
+		value: "alert alert-info alert-dismissible fade show",
 		onChange: updateColor
 	  }), /*#__PURE__*/
 	  React.createElement("label", {
@@ -115,7 +115,7 @@ export default function Edit(props) {
 		type: "radio",
 		id: "ligth",
 		name: "color",
-		value: "alert alert-light",
+		value: "alert alert-light alert-dismissible fade show",
 		onChange: updateColor
 	  }), /*#__PURE__*/
 	  React.createElement("label", {
@@ -125,7 +125,7 @@ export default function Edit(props) {
 		type: "radio",
 		id: "dark",
 		name: "color",
-		value: "alert alert-dark",
+		value: "alert alert-dark alert-dismissible fade show",
 		onChange: updateColor
 	  }), /*#__PURE__*/
 	  React.createElement("label", {

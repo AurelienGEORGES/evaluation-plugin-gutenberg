@@ -20,6 +20,12 @@ import { useBlockProps } from '@wordpress/block-editor';
 	React.createElement("div", {
 		class: props.attributes.color,
 		role: "alert"
-	  }, props.attributes.content))
+	  }, props.attributes.content,
+	  React.createElement("button", {
+		type: "button",
+		class: "btn-close",
+		"data-bs-dismiss": "alert",
+		"aria-label": "Close"
+	  })));
 }
 
